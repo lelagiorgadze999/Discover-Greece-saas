@@ -1,0 +1,15 @@
+@mixin myflex($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin mytheme($color, $font-size, $font-weight){
+  color: $color;
+  font-family: "Roboto", sans-serif;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: normal;
+}
+  
